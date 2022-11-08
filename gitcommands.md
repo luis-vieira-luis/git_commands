@@ -16,6 +16,14 @@ _A list of my commonly used Git commands_
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
+### Repository Info
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote -v` | See a list of a Git project’s remotes with the command |
+| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+
+
 ### Basic Snapshotting
 
 | Command | Description |
