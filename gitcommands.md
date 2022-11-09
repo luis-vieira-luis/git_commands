@@ -16,12 +16,6 @@ _A list of my commonly used Git commands_
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 | `git clone remote_location clone_name` | Create a local copy of a remote repository |
-
-### Repository Info
-
-| Command | Description |
-| ------- | ----------- |
-| `git remote -v` | See a list of a Git project’s remotes with the command |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 
@@ -30,7 +24,6 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git remote -v` | See a list of a Git project’s remotes with the command |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 
 ### Basic Snapshotting
@@ -58,6 +51,7 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
+| `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git checkout HEAD [filename]` | Discards changes in the working directory |
 | `git reset HEAD [filename]` | Unstages file changes in the staging area |
 | `git reset [commit_SHA]` | Resets to a previous commit in your commit history |
@@ -77,7 +71,7 @@ _A list of my commonly used Git commands_
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git checkout [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
-| `git checkout -- [file-name.txt]` | Discard changes to a file |
+| `git switch [branch name]` | Switch to a branch |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
