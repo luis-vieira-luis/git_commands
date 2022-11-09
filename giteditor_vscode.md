@@ -42,3 +42,8 @@ To summarize, here are some examples of where you can use VS Code as the editor:
 `git add -p` followed by `e` for interactive add
 `git difftool <commit>^ <commit>` use VS Code as the diff editor for changes
 Working with GitHub Pull Requests and Issues
+`git rebase HEAD~3 -i` do interactive rebase using VS Code
+`git commit` use VS Code for the commit message
+`git add -p` followed by `e` for interactive add
+`git difftool <commit>^ <commit>` use VS Code as the diff editor for changes
+Working with GitHub Pull Requests and Issues
